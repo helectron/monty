@@ -15,10 +15,10 @@ push 2$
 				     push 4$
 						         push 5    $
 									       push    6        $
-									       pall$
-									       julien@ubuntu:~/monty$
-									       ```
-									       Monty byte code files can contain blank lines (empty or made of spaces only, and any additional text after the opcode or its required argument is not taken into account:
+pall$
+julien@ubuntu:~/monty$
+```
+Monty byte code files can contain blank lines (empty or made of spaces only, and any additional text after the opcode or its required argument is not taken into account:
 
 ```bash
 julien@ubuntu:~/monty$ cat -e bytecodes/001.m
@@ -36,9 +36,11 @@ push 2$
 																													    push 5    $
 																																		          push    6        $
 																																										  $
-																																										  pall This is the end of our program. Monty is awesome!$
-																																										  julien@ubuntu:~/monty$
-																																										  ```
+																															   pall This is the end of our program. Monty is awesome!$
+
+julien@ubuntu:~/monty$
+
+```
 
 #### The monty program
 
